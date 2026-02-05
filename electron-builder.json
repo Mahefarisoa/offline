@@ -1,0 +1,17 @@
+{
+  "appId": "com.example.offlineapp",
+  "productName": "OfflineApp",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*"
+  ],
+  "win": {
+    "target": "nsis"
+  },
+  "mac": {
+    "target": "dmg"
+  }
+}

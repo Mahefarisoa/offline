@@ -1,0 +1,14 @@
+{
+  "name": "bourg-offline",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build",
+    "electron:start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^13.6.9",
+    "electron-builder": "^22.14.13"
+  }
+}

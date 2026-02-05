@@ -1,0 +1,6 @@
+@import './variables-typo.scss';
+
+@mixin menubar {
+    background-color: $theme;
+    color: $white;
+}
